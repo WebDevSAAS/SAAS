@@ -1,10 +1,3 @@
-/**
-* Template Name: BizLand - v3.1.0
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -24,7 +17,6 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-<<<<<<< HEAD
     font-family: "Roboto", sans-serif;
 }
 
@@ -32,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header {
     background: #fff;
+    background-color: white;
     transition: all 0.5s;
     z-index: 997;
     height: 86px;
@@ -45,10 +38,10 @@ h1, h2, h3, h4, h5, h6 {
 #navbarNav{
     align-content: flex-end;
 }
-=======
-  font-family: "Roboto", sans-serif;
-}
 
+.saas{
+  margin-left: 50px;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -183,6 +176,20 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 20px 15px rgba(16, 110, 234, 0.15);
+}
+
+.text{
+  text-align: center;
+  text-shadow: #0D6EFD;
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.teamtext{
+  color: #0D6EFD;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .team .member .member-img {
@@ -362,4 +369,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
->>>>>>> 988227a60d434f85958cb6c9587c18bba1b2b79d
+.plans{
+  align-content: center;
+}
