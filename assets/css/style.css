@@ -162,6 +162,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.felex {
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+
+.delx{
+  padding-bottom: 70px;
+}
+
+.fixx{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Team
@@ -181,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 .text{
   text-align: center;
   text-shadow: #0D6EFD;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
   font-weight: bold;
   font-family: 'Varela Round', sans-serif;
 }
